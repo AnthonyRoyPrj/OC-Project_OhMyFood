@@ -1,0 +1,25 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 3px 3px rgba($color: #333333, $alpha: 0.3);
+    &__logo {
+        height: 100%;
+        width: 175px;
+    }
+    &__image {
+        width: 100%;
+        object-fit: contain;
+        margin-top: 10%;
+    }
+    &__back {
+        position: absolute;
+        left: 0;
+        margin-left: 25px;
+        i {
+            color: #333333;
+        }
+    }
+}
