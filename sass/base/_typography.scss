@@ -42,6 +42,10 @@ a {
     &__text {
         @include font-parameters ($weight: $weight-bold);
     }
+    &__number {
+        @include font-parameters ($size: $size-tag);
+        color: white;
+    }
 }
 
 .restaurant {
