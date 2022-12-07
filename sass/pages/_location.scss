@@ -1,0 +1,12 @@
+.location  {
+    height: 50px;
+    background-color: #EFEFEF;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    &__icon {
+        position: absolute;
+        left: 160px;
+    }
+}
