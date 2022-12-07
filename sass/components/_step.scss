@@ -1,0 +1,29 @@
+.step {
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+    background-color: #F3F3F3;
+    box-shadow: 0 7px 12px rgba($color: #333333, $alpha: 0.15);
+    &__number {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 35%;
+        left: -11px;
+        border-radius: 11px;
+        background-color: $color-primary;
+    }
+    &__information {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin: 0 7%;
+    }
+}
