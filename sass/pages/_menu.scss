@@ -1,0 +1,31 @@
+.menu {
+    &__image {
+        img {
+            width: 100%;
+            object-fit: contain;
+            position: relative;
+        }
+    }
+    &__card {
+        position: relative;
+        background-color: #FFFFFF;
+        z-index: 1;
+        border-radius: 40px;
+        margin-top: -40px;
+    }
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: 30px 20px 26px 0;
+    }
+    &__content {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
