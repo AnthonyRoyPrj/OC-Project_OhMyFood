@@ -1,0 +1,15 @@
+.main-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient($color-secondary, $color-primary);
+}
+
+.explore {
+    .main-button {
+        margin: 25px auto 15px auto;
+    }
+}
