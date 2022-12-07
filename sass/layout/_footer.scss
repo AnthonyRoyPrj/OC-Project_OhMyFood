@@ -1,0 +1,14 @@
+.footer {
+    background-color: #333333;
+    padding: 18px 0 30px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    &__logo {
+        margin-bottom: 10px;
+    }
+    &__suggest {
+        display: flex;
+        gap: 10px;
+    }
+}
