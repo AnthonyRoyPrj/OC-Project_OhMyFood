@@ -1,2 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body {
+    @include font-parameters;
+    font-family: $family-common;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.location {
+    color: #333333;
+    &__city {
+        @include font-parameters ($weight: $weight-bold);
+    }
+}
+
+.explore {
+    &__heading {
+        @include font-parameters ($size-heading, $weight-black);
+    }
+    &__discover {
+        @include font-parameters ($size: $size-card-heading);
+        color: #333333;
+    }
+}
+
+.main-button {
+    color: white;
+}
+
+.working {
+    &__heading {
+        @include font-parameters ($size-heading, $weight-black);
+    }
+}
+
+.step {
+    &__text {
+        @include font-parameters ($weight: $weight-bold);
+    }
+}
+
+.restaurant {
+    &__heading {
+        @include font-parameters ($size-heading, $weight-black);
+    }
+}
+
+.card {
+    &__new {
+        @include font-parameters ($size-tag, $weight-medium);
+        color: darken($color-tertiary, 50%);
+    }
+    &__title {
+        @include font-parameters ($size-card-heading, $weight-black);
+    }
+}
+
+.menu {
+    &__heading {
+        h1 {
+            font-family: $family-heading;
+            @include font-parameters ($size: $size-restaurant-name);
+
+        }
+    }
+}
+
+.section {
+    h2 {
+        @include font-parameters;
+    }
+}
+
+.dish {
+    &__information {
+        h3 {
+            @include font-parameters ($size-card-heading, $weight-bold);
+        }
+    }
+    &__price {
+        @include font-parameters ($weight: $weight-bold);
+    }
+}
+
+.footer {
+    &__logo {
+        font-family: $family-heading;
+        @include font-parameters ($size: $size-card-heading);
+    }
+}
