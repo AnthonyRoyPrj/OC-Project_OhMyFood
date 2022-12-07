@@ -1,0 +1,14 @@
+.section {
+    h2 {
+        padding-bottom: 15px;
+        >span {
+            border-bottom: 3px solid $color-tertiary;
+            padding-bottom: 4px;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
