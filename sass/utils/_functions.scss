@@ -5,3 +5,11 @@
     $pastel: hsl($hue, $sat, $light);
     @return $pastel;
   }
+
+  @function new-tag($color) {
+    $hue: hue($color);
+    $sat: 100%;
+    $light: 26%;
+    $new-tag: hsl($hue, $sat, $light);
+    @return $new-tag;
+  }
