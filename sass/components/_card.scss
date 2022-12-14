@@ -2,7 +2,7 @@
     background-color: white;
     position: relative;
     border-radius: 15px;
-    box-shadow: 0 5px 7px rgba($color: #333333, $alpha: 0.15);
+    box-shadow: 0 5px 8px $color-light-shadow;
     &__new {
         position: absolute;
         z-index: 1;

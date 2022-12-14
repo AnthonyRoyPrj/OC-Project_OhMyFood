@@ -4,8 +4,8 @@
     margin: auto;
     position: relative;
     border-radius: 15px;
-    background-color: #F3F3F3;
-    box-shadow: 0 7px 12px rgba($color: #333333, $alpha: 0.15);
+    background-color: $color-light-background;
+    box-shadow: 0 7px 12px $color-light-shadow;
     &__number {
         width: 22px;
         height: 22px;

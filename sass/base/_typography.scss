@@ -12,7 +12,7 @@ a {
 }
 
 .location {
-    color: #333333;
+    color: $color-dark-background;
     &__city {
         @include font-parameters ($weight: $weight-bold);
     }
@@ -24,7 +24,7 @@ a {
     }
     &__discover {
         @include font-parameters ($size: $size-card-heading);
-        color: #333333;
+        color: $color-dark-background;
     }
 }
 
@@ -57,7 +57,7 @@ a {
 .card {
     &__new {
         @include font-parameters ($size-tag, $weight-medium);
-        color: darken($color-tertiary, 50%);
+        color: new-tag($color-tertiary);
     }
     &__title {
         @include font-parameters ($size-card-heading, $weight-black);
