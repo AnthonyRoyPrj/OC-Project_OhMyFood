@@ -25,5 +25,12 @@
     }
     &__icon {
         margin: 0 7%;
+        color: $color-step-icon;
+    }
+    &:last-child {
+        background-color: pastel($color-primary);
+        .step__icon {
+            color: $color-primary;
+        }
     }
 }
