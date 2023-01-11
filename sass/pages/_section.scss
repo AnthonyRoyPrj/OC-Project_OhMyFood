@@ -1,9 +1,15 @@
 .section {
     h2 {
         padding-bottom: 15px;
-        >span {
-            border-bottom: 3px solid $color-tertiary;
-            padding-bottom: 4px;
+        animation: section-title 1000ms ease 100ms;
+        animation-fill-mode: both;
+        &::after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: $color-tertiary;
+            margin-top: 4px;
         }
     }
     &__content {
