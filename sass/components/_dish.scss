@@ -13,7 +13,7 @@
     cursor: pointer;
     @for $i from 1 to 5 {
         &--animation-#{$i} {
-            animation: menu 1000ms ease 100ms*$i;
+            animation: dish 1000ms ease 100ms*$i;
             animation-fill-mode: both;
         }
     }

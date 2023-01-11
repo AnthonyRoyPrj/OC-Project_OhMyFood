@@ -606,19 +606,19 @@ a {
   cursor: pointer;
 }
 .dish--animation-1 {
-  animation: menu 1000ms ease 100ms;
+  animation: dish 1000ms ease 100ms;
   animation-fill-mode: both;
 }
 .dish--animation-2 {
-  animation: menu 1000ms ease 200ms;
+  animation: dish 1000ms ease 200ms;
   animation-fill-mode: both;
 }
 .dish--animation-3 {
-  animation: menu 1000ms ease 300ms;
+  animation: dish 1000ms ease 300ms;
   animation-fill-mode: both;
 }
 .dish--animation-4 {
-  animation: menu 1000ms ease 400ms;
+  animation: dish 1000ms ease 400ms;
   animation-fill-mode: both;
 }
 .dish:active > .dish__information {
