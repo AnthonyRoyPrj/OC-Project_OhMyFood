@@ -28,6 +28,14 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 40px;
+        @media screen and (min-width: 992px) {
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        @media screen and (min-width: 1300px) {
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
     }
 }

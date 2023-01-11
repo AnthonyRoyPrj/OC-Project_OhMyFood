@@ -31,6 +31,22 @@
             }
         }
     }
+    @media screen and (min-width: 992px) {
+        &:hover {
+            & > .dish__information {
+                width: 75%;
+            }
+            & > .dish__price {
+                transform: translateX(-150%);
+            }
+            & > .dish__save {
+                transform: translateX(0);
+                .fa-solid {
+                    transform: translateX(0) rotate(0);
+                }
+            }
+        }
+    }
     &__information {
         width: 90%;
         transition: width ease-in-out 800ms;

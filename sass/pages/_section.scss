@@ -1,4 +1,8 @@
 .section {
+    @media screen and (min-width: 992px) {
+        width: 42vw;
+        max-width: 500px;
+    }
     h2 {
         padding-bottom: 15px;
         animation: section-title 1000ms ease 100ms;

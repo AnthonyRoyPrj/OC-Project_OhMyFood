@@ -3,6 +3,9 @@
     position: relative;
     border-radius: 15px;
     box-shadow: 0 5px 8px $color-light-shadow;
+    @media screen and (min-width: 992px) {
+        width: 48.8%;
+    }
     &__new {
         position: absolute;
         z-index: 1;
@@ -18,6 +21,9 @@
         height: 50vw;
         object-fit: cover;
         border-radius: 15px 15px 0 0;
+        @media screen and (min-width: 992px) {
+            height: 20vw;
+        }
     }
     &__description {
         width: 90%;

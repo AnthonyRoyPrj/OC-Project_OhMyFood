@@ -9,6 +9,14 @@
         cursor: pointer;
         &:active + .like__solid {
             background-position-y: 100%;
+            @media screen and (min-width: 992px) {
+                background-position-y: 20px;
+            }
+        }
+        @media screen and (min-width: 992px) {
+            &:hover + .like__solid {
+                background-position-y: 100%;
+            }
         }
     }
     &__solid {
