@@ -27,45 +27,44 @@
             <section class="explore">
                 <h1 class="explore__heading">Réservez le menu qui vous convient</h1>
                 <p class="explore__discover">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-                <a href="#restaurants"><div class="main-button">Explorer nos restaurants</div></a>
-            </section>
-            <section class="working">
-                <h2 class="working__heading">Fonctionnement</h2>
-                <div class="working__steps">
-                    <div class="step">
-                        <div class="step__number">1</div>
-                        <div class="step__information">
-                            <div class="step__icon">
-                                <i class="fa-solid fa-mobile-screen-button"></i>
+                    <a class="main-button" href="#restaurants">Explorer nos restaurants</a>
+                </section>
+                <section class="working">
+                    <h2 class="working__heading">Fonctionnement</h2>
+                    <div class="working__steps">
+                        <div class="step">
+                            <div class="step__number">1</div>
+                            <div class="step__information">
+                                <div class="step__icon">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                </div>
+                                <p class="step__text">Choississez un restaurant</p>
                             </div>
-                            <p class="step__text">Choississez un restaurant</p>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">2</div>
+                            <div class="step__information">
+                                <div class="step__icon">
+                                    <i class="fa-solid fa-list"></i>
+                                </div>
+                                <p class="step__text">Composez votre menu</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">3</div>
+                            <div class="step__information">
+                                <div class="step__icon">
+                                    <i class="fa-solid fa-store"></i>
+                                </div>
+                                <p class="step__text">Dégustez au restaurant</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="step">
-                        <div class="step__number">2</div>
-                        <div class="step__information">
-                            <div class="step__icon">
-                                <i class="fa-solid fa-list"></i>
-                            </div>
-                            <p class="step__text">Composez votre menu</p>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step__number">3</div>
-                        <div class="step__information">
-                            <div class="step__icon">
-                                <i class="fa-solid fa-store"></i>
-                            </div>
-                            <p class="step__text">Dégustez au restaurant</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="restaurants" class="restaurants">
-                <h2 class="restaurants__heading">Restaurants</h2>
-                <div class="restaurants__cards">
-                    <div class="card">
-                        <a href="palette.html">
+                </section>
+                <section id="restaurants" class="restaurants">
+                    <h2 class="restaurants__heading">Restaurants</h2>
+                    <div class="restaurants__cards">
+                        <a href="palette.html" class="card">
                             <div class="card__new">Nouveau</div>
                             <img class="card__image" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                                 alt="Restaurant La palette du goût" />
@@ -79,9 +78,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="card">
-                        <a href="enchantee.html">
+                        <a href="enchantee.html" class="card">
                             <div class="card__new">Nouveau</div>
                             <img class="card__image" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                                 alt="Restaurant La palette du goût" />
@@ -96,8 +93,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card">
-                        <a href="francaise.html">
+                            </div>
+                        </a>
+                        <a href="francaise.html" class="card">
                             <img class="card__image" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                                 alt="Restaurant La palette du goût" />
                             <div class="card__description">
@@ -111,8 +109,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card">
-                        <a href="delice.html">
+                            </div>
+                        </a>
+                        <a href="delice.html" class="card">
                             <img class="card__image"
                                 src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                                 alt="Restaurant La palette du goût" />
@@ -133,17 +132,37 @@
     </main>
     <footer class="footer">
         <h2 class="footer__logo">ohmyfood</h2>
-        <div class="footer__suggest">
-            <div class="footer_icon">
-                <i class="fa-solid fa-utensils fa-xs"></i>
-            </div>
-            <p class="footer__text">Proposer un restaurant</p>
+            <a href="#" class="footer__suggest">
+                <div class="footer_icon">
+                    <i class="fa-solid fa-utensils fa-xs"></i>
+                </div>
+                <p class="footer__text">Proposer un restaurant</p>
+            </a>
+            <a href="#" class="footer__suggest">
+                <div class="footer_icon">
+                    <i class="fa-solid fa-handshake-angle fa-2xs"></i>
+                </div>
+                <p class="footer__text">Devenir partenaire</p>
+            </a>
+            <a href="#" class="footer__text">Mentions légales</a>
+            <a href="mailto:contact@ohmyfood.fr" class="footer__text">Contact</a>
+        </footer>
+    </div>
+    <aside class="load">
+        <div class="load__bar-origin load__bar-origin-1">
+            <div class="load__bar-scale load__bar-scale-1"></div>
         </div>
-        <div class="footer__suggest">
-            <div class="footer_icon">
-                <i class="fa-solid fa-handshake-angle fa-2xs"></i>
-            </div>
-            <p class="footer__text">Devenir partenaire</p>
+        <div class="load__bar-origin load__bar-origin-2">
+            <div class="load__bar-scale load__bar-scale-2"></div>
+        </div>
+        <div class="load__bar-origin load__bar-origin-3">
+            <div class="load__bar-scale load__bar-scale-3"></div>
+        </div>
+        <div class="load__bar-origin load__bar-origin-4">
+            <div class="load__bar-scale load__bar-scale-4"></div>
+        </div>
+        <div class="load__bar-origin load__bar-origin-5">
+            <div class="load__bar-scale load__bar-scale-5"></div>
         </div>
         <p class="footer__text">Mentions légales</p>
         <p class="footer__text">Contact</p>
