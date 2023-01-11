@@ -5,6 +5,7 @@
     background-color: white;
     box-shadow: 0 7px 12px $color-light-shadow;
     padding: 10px 25px 10px 10px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -16,8 +17,23 @@
             animation-fill-mode: both;
         }
     }
+    &:active {
+        & > .dish__information {
+            width: 75%;
+        }
+        & > .dish__price {
+            transform: translateX(-150%);
+        }
+        & > .dish__save {
+            transform: translateX(0);
+            .fa-solid {
+                transform: translateX(0) rotate(0);
+            }
+        }
+    }
     &__information {
         width: 90%;
+        transition: width ease-in-out 800ms;
         h3, p {
             width: 100%;
             text-overflow: ellipsis;
@@ -28,5 +44,24 @@
     &__price {
         padding-left: 10px;
         width: 10%;
+        transition: transform ease-in-out 800ms;
+    }
+    &__save {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 15%;
+        background-color: $color-tertiary;
+        transform: translateX(101%);
+        transition: transform ease-in-out 800ms;
+        .fa-solid {
+            color: #FFFFFF;
+            transform: translateX(-50%) rotate(1turn);
+            transition: transform ease-in-out 800ms;
+        }
     }
 }
