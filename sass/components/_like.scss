@@ -7,14 +7,11 @@
         position: absolute;
         z-index: 1;
         cursor: pointer;
-        &:active + .like__solid {
-            background-position-y: 100%;
-            @media screen and (min-width: 992px) {
-                background-position-y: 20px;
-            }
-        }
-        @media screen and (min-width: 992px) {
-            &:hover + .like__solid {
+        opacity: 1;
+        transition: opacity 200ms ease-in-out;
+        &:hover {
+            opacity: 0;
+            + .like__solid {
                 background-position-y: 100%;
             }
         }
