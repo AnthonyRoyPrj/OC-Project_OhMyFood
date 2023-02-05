@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 24px;
+    height: 24px;
     &__regular {
+        line-height: 24px;
         position: absolute;
         z-index: 1;
         cursor: pointer;
@@ -17,6 +20,8 @@
         }
     }
     &__solid {
+        line-height: 24px;
+        position: absolute;
         background: linear-gradient($color-primary, $color-secondary) 0% 20px no-repeat;
         background-clip: text;
         -webkit-background-clip: text;
